@@ -91,7 +91,11 @@ body::-webkit-scrollbar {
 .h-right a {
     text-decoration: none;
     color: rgba(31, 37, 35, 1);
-    ;
+    font-weight: 700;
+}
+
+.h-right a:hover {
+    color: rgba(1, 138, 180, 1);
 }
 
 .pop {
@@ -153,11 +157,13 @@ body::-webkit-scrollbar {
 .hero-left .row4 {
     background: rgba(1, 138, 180, 1);
     padding: 16px 10px;
+    padding-left: 20px;
     width: 143px;
     border: none;
     outline: none;
     color: white;
     border-radius: 40px;
+    text-decoration: none;
 }
 
 .hero-left .row4:hover {
@@ -562,7 +568,11 @@ body::-webkit-scrollbar {
 
     /* header right  */
     .h-right {
-        display: none;
+        gap: 15px;
+    }
+
+    .h-right a {
+        font-size: 10px;
     }
 
     .pop {
