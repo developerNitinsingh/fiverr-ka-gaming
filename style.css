@@ -10,13 +10,13 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-body {
+html {
     scroll-behavior: smooth;
 }
 
 /* head section ======= */
 
-.popup {
+/* .popup {
     position: fixed;
     height: 100vh;
     width: 0;
@@ -59,7 +59,7 @@ body {
 
 .popup-block a:hover {
     color: white;
-}
+} */
 
 #headers {
     display: flex;
