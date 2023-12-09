@@ -301,6 +301,12 @@ body::-webkit-scrollbar {
     margin-bottom: 10px;
 }
 
+.media .row5 .box p {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
 .media .row5 .box:hover {
     color: white;
     background-color: rgba(1, 137, 178, 1);
