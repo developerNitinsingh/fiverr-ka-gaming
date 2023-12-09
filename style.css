@@ -320,6 +320,7 @@ html {
 .media .row5 .box:hover {
     color: white;
     background-color: rgba(1, 137, 178, 1);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .media .row5 .box:hover #img {
@@ -370,10 +371,11 @@ html {
     border-radius: 24px;
     height: 486px;
     justify-content: space-between;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .price-boxs .box:hover {
-    border: 1px solid rgba(1, 137, 178, 1);
+    border: 2px solid rgba(1, 137, 178, 1);
 }
 
 
@@ -416,6 +418,7 @@ html {
 .price-boxs .box .price-btn:hover {
     color: white;
     background-color: rgba(1, 137, 178, 1);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 #contacts {
