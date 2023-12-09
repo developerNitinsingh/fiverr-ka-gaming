@@ -15,17 +15,18 @@ body::-webkit-scrollbar {
 .popup {
     position: fixed;
     height: 100vh;
-    width: 100vw;
+    width: 0;
     z-index: 99;
     background-color: black;
     opacity: 0.9;
-    display: none;
+    overflow-x: hidden;
+
 }
 
 .popup .cross {
     position: absolute;
-    right: 70px;
-    top: 70px;
+    right: 5px;
+    top: 20px;
 }
 
 .popup .cross:hover {
@@ -35,13 +36,12 @@ body::-webkit-scrollbar {
 }
 
 .popup-block {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 70px;
+    position: relative;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 20px;
     gap: 35px;
 
 }
